@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 /**
  * Class used to create a GUI interface to select the .MEM file from windows, this eliminate the need to determine 
  * the path of file every timea different file is to be loaded in ARM-Simulator.This class uses JavaFX to create stages and filechooser.
- * @author Kshitiz, Nikhil, Apoorv
+ * @author Kshitiz, Nikhil Sachdeva, Apoorv
  * 
  */
 public final class ChooseFile extends Application {
@@ -48,7 +48,7 @@ public final class ChooseFile extends Application {
                     System.exit(0);
 
                 } catch (Exception e1) {
-                    // TODO Auto-generated catch block
+                    // TODO Auto-generated catch block // this is important 
                     e1.printStackTrace();
                 }
                 flag=false;
